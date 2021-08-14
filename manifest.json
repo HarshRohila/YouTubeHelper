@@ -1,5 +1,4 @@
 {
-
   "description": "Shows a share button in youtube video page, to share video URL of current time. See https://github.com/HarshRohila/YouTubeHelper",
   "manifest_version": 2,
   "name": "YouTube Helper",
@@ -8,34 +7,29 @@
   "icons": {
     "48": "icons/beasts-48.png"
   },
-
   "permissions": [
     "activeTab",
     "*://*.youtube.com/*"
   ],
-
   "browser_action": {
     "default_icon": "icons/beasts-32.png",
-    "theme_icons": [{
+    "theme_icons": [
+      {
         "light": "icons/beasts-32-light.png",
         "dark": "icons/beasts-32.png",
         "size": 32
-    }],
-    "default_title": "Beastify",
-    "default_popup": "popup/choose_beast.html"
+      }
+    ],
+    "default_title": "YouTube Helper"
   },
-
-  "web_accessible_resources": [
-    "beasts/*.jpg"
-  ],
-
   "browser_specific_settings": {
     "gecko": {
       "id": "rohilaharsh@gmail.com"
     }
   },
-
   "background": {
-    "scripts": ["backgroud_scripts/background.js"]
+    "scripts": [
+      "backgroud_scripts/background.js"
+    ]
   }
 }

@@ -5,7 +5,8 @@
 function insertShareBtn() {
   var btn = document.createElement("button");
   btn.innerText = "Share";
-  btn.setAttribute("id", "youtubeHelperShareBtn");
+  btn.classList.add("youtubeHelperShareBtn");
+
   btn.setAttribute(
     "style",
     `position:fixed;

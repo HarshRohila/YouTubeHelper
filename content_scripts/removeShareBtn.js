@@ -1,4 +1,7 @@
 (function () {
-  var btn = document.getElementById("youtubeHelperShareBtn");
-  btn && btn.parentNode.removeChild(btn);
+  var btns = document.getElementsByClassName("youtubeHelperShareBtn");
+  const btnArr = Array.from(btns);
+  btnArr.forEach((btn) => {
+    btn.parentNode.removeChild(btn);
+  });
 })();
