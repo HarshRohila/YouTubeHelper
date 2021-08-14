@@ -2,7 +2,7 @@
   "description": "Shows a share button in youtube video page, to share video URL of current time. See https://github.com/HarshRohila/YouTubeHelper",
   "manifest_version": 2,
   "name": "YouTube Helper",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/HarshRohila/YouTubeHelper",
   "icons": {
     "48": "icons/beasts-48.png"
