@@ -1,10 +1,10 @@
 {
 
-  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+  "description": "Shows a share button in youtube video page, to share video URL of current time. See https://github.com/HarshRohila/YouTubeHelper",
   "manifest_version": 2,
-  "name": "Beastify",
+  "name": "YouTube Helper",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "homepage_url": "https://github.com/HarshRohila/YouTubeHelper",
   "icons": {
     "48": "icons/beasts-48.png"
   },
@@ -31,7 +31,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "borderify@example.com"
+      "id": "rohilaharsh@gmail.com"
     }
   },
 
